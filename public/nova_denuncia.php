@@ -71,5 +71,6 @@ function setLatLon(lat, lon) {
     document.getElementById('latitude').value = lat;
     document.getElementById('longitude').value = lon;
 }
+</script>
 </body>
 </html>
