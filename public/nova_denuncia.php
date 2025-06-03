@@ -19,6 +19,7 @@ $erro = "";
 <head>
     <meta charset="UTF-8">
     <title>Nova Denúncia</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/feed.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
