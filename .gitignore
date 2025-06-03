@@ -1,0 +1,7 @@
+# Environment variable definitions
+.env
+
+# Uploaded files
+uploads/
+
+
