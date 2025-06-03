@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     <form class="login" action="" method="post">
         <p><?php echo ""?></p>
-        <img src="" alt="Logo">
+        <img src="../img/logoforum2.png" alt="Logo">
         <input type="text" class="field" placeholder="Nome" name="nome">
         <input class="field" type="text" placeholder="CPF" name="cpf" maxlength="14" required>
         <input class="field" type="email" placeholder="E-mail" name="email">
