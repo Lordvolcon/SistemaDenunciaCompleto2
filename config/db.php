@@ -1,8 +1,16 @@
 <?php 
-function conectarBanco() {        
-    $usuario = 'root';
-    $senha = '030212079945472989915071';
-    $servidor = 'localhost';
+/**
+ * Cria e retorna uma conexão PDO utilizando credenciais definidas por variáveis de ambiente.
+ *
+ * Variáveis de ambiente esperadas:
+ *   DB_HOST     Endereço do servidor MySQL.
+ *   DB_USER     Usuário do banco de dados.
+ *   DB_PASSWORD Senha do banco de dados.
+ */
+function conectarBanco() {
+    $usuario = getenv('DB_USER');
+    $senha = getenv('DB_PASSWORD');
+    $servidor = getenv('DB_HOST');
     $banco = 'proj';
 
     try {

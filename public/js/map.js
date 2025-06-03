@@ -1,4 +1,5 @@
-    const locationIQKey = 'pk.1294728d1a09262d5659d1c2475b2b2c';
+    // Espera que a chave esteja definida em window.LOCATIONIQ_KEY
+    const locationIQKey = window.LOCATIONIQ_KEY;
 
     var map = L.map('map').setView([-15.77972, -47.92972], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
