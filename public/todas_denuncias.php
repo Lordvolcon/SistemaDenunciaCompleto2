@@ -24,6 +24,7 @@ $denuncias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Todas as Denúncias</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/feed.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />

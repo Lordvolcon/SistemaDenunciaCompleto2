@@ -44,6 +44,7 @@ $denuncias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/admin_denuncias.css">
     <link rel="stylesheet" href="css/header.css">
 </head>

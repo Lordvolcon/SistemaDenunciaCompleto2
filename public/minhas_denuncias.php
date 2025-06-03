@@ -29,6 +29,7 @@ $denuncias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Minhas Denúncias</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/feed.css">
     <link rel="stylesheet" href="css/header.css">
     <script src="js/header.js" defer></script>
