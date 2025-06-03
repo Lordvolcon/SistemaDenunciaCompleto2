@@ -18,6 +18,7 @@ $erro = "";
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nova Denúncia</title>
     <link rel="stylesheet" href="css/feed.css">
     <link rel="stylesheet" href="css/header.css">
